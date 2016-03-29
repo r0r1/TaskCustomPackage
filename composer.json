@@ -1,0 +1,25 @@
+{
+    "name": "rorikurniadi/task",
+    "description": "Task CRUD Module Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rori Kurniadi",
+            "email": "rori.kurniadi@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rori\\Task\\": "src"
+        }
+    },
+    "require": {
+        "illuminate/database": "^5.2",
+        "illuminate/routing": "^5.2"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "codeception/codeception":"*",
+        "phpunit/phpunit": "~4.0"
+    }
+}
